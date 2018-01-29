@@ -73,7 +73,7 @@ public class Main extends JPanel {
                     repaint();
 
                     t -= dt;
-                    dy += g / 3;
+                    dy += g / 2;
                     System.out.println("t" + i + ": (" + x0 + "," + y0 + ") -> " + "(" + x + "," + y + ")");
                     i++;
                     try {
